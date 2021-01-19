@@ -1,0 +1,202 @@
+body {
+  color:hsl(0, 0%, 40%);
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.img1 {
+  width: 400px;
+  margin: 45px auto;
+  display: block;
+}
+
+.img2 {
+  border-radius: 10px;
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 40%);
+  font-size: 18px;
+  display: inline;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+li a:hover {
+  border-bottom:hsl(29, 81%, 49%) 4px solid;
+
+  transition: border 0.3s
+}
+
+li a:hover, p .sapport:hover, .read a:hover, tr a:hover, footer a:hover {
+  color:hsl(29, 81%, 49%);
+}
+
+.info h1, .read h1, .about h1, .table h1, .template1 h1, .template2 h1, .gallery h1, .link h1 {
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  background:hsl(29, 81%, 49%);
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.read h2, .template1 h2, .template2 h2 {
+  font-weight: normal;
+  font-size: 16px;
+  padding: 12px 20px;
+  border:hsl(0, 0%, 40%) 1px solid;
+  border-radius: 10px;
+  margin: 18px 10px;
+}
+
+.read p, dl, .template1 p, .template2 p, .template2 a {
+  line-height: 2;
+  margin: 0 30px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+dt {
+  color: hsl(29, 81%, 49%);
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+dd {
+  margin: 0;
+}
+
+a {
+  color: hsl(0, 0%, 40%);
+}
+
+.read1 {
+  margin: 0 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 50px;
+}
+
+
+.about p {
+  margin: 20px 30px;
+}
+
+th, td {
+  border:hsl(0, 0%, 40%) solid 1px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 30px auto;
+  width: calc(100% - 20px);
+}
+
+th {
+  width: 30%;
+  padding: 13px 0;
+}
+
+thead tr td{
+  padding: 13px 0 13px 10px;
+  font-weight: bold;
+  text-align: left;
+  background: lightgray;
+}
+
+tbody tr td {
+  width: 70%;
+  padding: 13px 0 13px 10px;
+}
+
+.template2 h1 {
+  margin-top: 40px;
+}
+
+span {
+  background:hsl(0, 2%, 88%);
+  display: inline-block;
+  line-height: 35px;
+  border-radius: 4px;
+}
+
+dd p {
+  padding-bottom: 15px;
+}
+
+.template3 span {
+  background: none;
+  display: block;
+  color: hsl(29, 81%, 49%);
+  line-height: 2;
+}
+
+.template4 span {
+  display: inline-block;
+  background: none;
+  color: hsl(29, 81%, 49%);
+  line-height: 2;
+}
+
+p .sapport {
+  margin: 0;
+}
+
+.template2 dd p {
+  margin: 0;
+}
+
+.gallery div img {
+  width: 70%;
+  vertical-align: middle;
+}
+
+.container {
+  display: flex;
+  border-bottom: 1px solid;
+  padding: 20px 20px;
+  margin: 0 20px;
+  align-items: center;
+}
+
+.gallery2 h2 {
+  font-weight: normal;
+  font-size: medium;
+  color:hsl(29, 81%, 49%);
+}
+
+.gallery1 {
+  width: 30%
+}
+
+.gallery2 {
+  width: 70%;
+  align-self: flex-start;
+}
+
+.gallery2 h2, .gallery2 p {
+  margin: 0;
+}
+
+
+th img {
+  width: 90%;
+}
